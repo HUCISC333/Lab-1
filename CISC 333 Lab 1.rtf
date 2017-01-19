@@ -1,0 +1,188 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset0 Calibri;}{\f3\fnil\fcharset2 Wingdings 3;}{\f4\fnil\fcharset2 Wingdings;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red242\green242\blue242;\red0\green0\blue255;\red255\green255\blue255;\red0\green0\blue0;\red128\green128\blue128;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\fi720\sl240\slmult1\qc\highlight1\lang9\b\caps\fs96 CISC 333- Lab 1\par
+\pard\sl240\slmult1\highlight0\f1\fs36\par
+Review Python Programming Language & Using Python\par
+\par
+Review tools: Pylint, GIT, & Atom editor\caps0\f0\fs24   \caps\f1\fs48\par
+\pard\sb2000\sa240\sl220\slmult0\qj\caps0\f0\fs24 This lab contains the following projects and activities:\par
+\trowd\trgaph144\trrh1316\trpaddl144\trpaddr144\trpaddfl3\trpaddfr3
+\clcfpat4\clcbpat3\cellx1691\clcfpat4\clcbpat3\cellx8502\pard\intbl\sa240\sl220\slmult0\tx360\tx630\fs20 Project 1.1\par
+Project 1.2\par
+Project 1.3\par
+ \b0\f2\fs22\cell\f0\fs20 Write Simple Python Programs\par
+Writing Complex Python Program using Functions\par
+Read and Write from a file \f2\fs22\cell\row\trowd\trgaph144\trrh323\trpaddl144\trpaddr144\trpaddfl3\trpaddfr3
+\clcfpat4\clcbpat3\cellx1691\clcfpat4\clcbpat3\cellx8502\pard\intbl\sl220\slmult0\tx360\tx630\b\f0\fs20 Lab Review Questions\b0\f2\fs22\cell\cell\row\trowd\trgaph144\trrh156\trpaddl144\trpaddr144\trpaddfl3\trpaddfr3
+\clcfpat4\clcbpat3\cellx1691\clcfpat4\clcbpat3\cellx8502\pard\intbl\sl220\slmult0\tx360\tx630\cell\cell\row\trowd\trgaph144\trrh311\trpaddl144\trpaddr144\trpaddfl3\trpaddfr3
+\clcfpat4\clcbpat3\cellx1691\clcfpat4\clcbpat3\cellx8502\pard\intbl\sl220\slmult0\tx360\tx630\b\f0\fs20 Post-Lab Cleanup\b0\f2\fs22\cell None\cell\row\pard\sb120\sl240\slmult1\b\caps\f0\fs24 before you begin\par
+\pard\li360\ri630\sa240\sl260\slmult0\tx360\tx8640\b0\caps0\f1\fs22  Lab 1 is based you have basic Python programming skills or  you have started or completed a Python programming course, online or classroom. Such as online course:\par
+\pard\li360\ri630\sa240\sl260\slmult0\qj\tx360\tx8640{\field{\*\fldinst{HYPERLINK "https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=1"}}{\fldrslt{\ul\cf2 https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=1}}}\f1\fs22\par
+\trowd\trgaph108\trleft360\trrh1134\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1548\clvertalc\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8838\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 NOTE\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 In this lab, you will  program in Python.  You will prepare for complex programming needed for Defensive programming and analyzing Encryption algorythms \i0\f2\fs22\cell\row\pard\keep\keepn\sb720\sa240\sl240\slmult1\b\caps\f0\fs24 Scenario\par
+\pard\keep\keepn\li360\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\b0\caps0\f1\fs22 You will use the HU Lab IT laptops.  The laptops are pre-installed with  Python, Atom editor, and programming tools.\par
+\pard\keep\keepn\li360\ri634\sl260\slmult0\qj\tx360\tx8640\b\f0\fs20 After completing this lab, you will be able to:\par
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent360{\pntxtb\'B7}}\keep\keepn\fi-360\li1080\ri634\sl260\slmult0\qj\tx360\tx8640\tx900\b0 Write, debug, and execute simple Python programs\par
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent360{\pntxtb\'B7}}\fi-360\li1080\ri634\sl260\slmult0\qj\tx360\tx8640\tx900 Use the Atom editor\par
+{\pntext\f5\'B7\tab}Debug with Pylint\par
+{\pntext\f5\'B7\tab}Use Python functions\par
+{\pntext\f5\'B7\tab}Read and Write to a file from within Python\par
+\pard\li1080\ri634\sl260\slmult0\qj\tx360\tx8640\tx900\par
+\par
+\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clcfpat4\clcbpat3\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx1908\clcfpat4\clcbpat3\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx8856\pard\intbl\sa120\sl260\slmult0\qj\cf3\b\fs28 LAB 1\cf0\b0\f2\fs22\cell\cf3\b\f0\fs28 WRITING PYTHON PROGRAMS\cf0\b0\f2\fs22\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx1908\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx8856\pard\intbl\sa120\sl260\slmult0\f1 Directions\f2\cell\f1  Create the following Python Programs and confirm results with Lab Assistant or course Instructor\f2\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx1908\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx8856\pard\intbl\sa120\sl260\slmult0\f1 Outcomes\f2\cell\f1 After completing this exercise, you will know how to:\par
+\pard\intbl\fi-360\li360\sa60\sl260\slmult0\tx360\expndtw6\dn4\f3\fs28\'81\f1\fs22\tab Write Python programs\par
+\f3\fs28\'81\f1\fs22\tab Use Atom editor to create and debug Python programs.\expndtw0\up0\f2\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx1908\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx8856\pard\intbl\sa120\sl260\slmult0\f1 Completion time\f2\cell\f1 60 minutes\f2\cell\row\trowd\trgaph108\trrh1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx1908\clbrdrl\brdrw24\brdrs\brdrcf4\clbrdrt\brdrw24\brdrs\brdrcf4\clbrdrr\brdrw24\brdrs\brdrcf4\clbrdrb\brdrw24\brdrs\brdrcf4 \cellx8856\pard\intbl\sa120\sl260\slmult0\f1 Precautions\f2\cell\f1 Be attentive while writing your programs\f2\cell\row\pard\fi-360\li360\sa60\sl260\slmult0\qj\tx360\f1\par
+\pard\fi-270\li270\sb240\sa160\sl260\slmult0\b\f4\fs24 n\f0\tab PART 1.1:.\par
+\pard\li360\ri634\sl260\slmult0\qj\tx360\tx8640\b0\f1\fs22 print 'Hello, world!'\par
+\pard\fi-450\li810\ri634\sl260\slmult0\qj\tx360\tx8640\tx810  name = raw_input('What is your name?\\n')\par
+print 'Hi, %s.' % name\par
+\pard\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810 friends = ['john', 'pat', 'gary', 'michael']\par
+for i, name in enumerate(friends):\par
+    print "iteration \{iteration\} is \{name\}".format(iteration=i, name=name)\par
+\par
+\par
+\trowd\trgaph108\trrh2596\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 1\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20  Describe the output from the program.\par
+\b  \b0\i0\f2\fs22\cell\row\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\f1\par
+  \par
+\pard\keep\keepn\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810 parents, babies = (1, 1)\par
+while babies < 100:\par
+    print 'This generation has \{0\} babies'.format(babies)\par
+    parents, babies = (babies, parents + babies)\par
+\par
+def greet(name):\par
+    print 'Hello', name\par
+greet('Jack')\par
+greet('Jill')\par
+greet('Bob')\par
+\pard\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810\par
+\trowd\trgaph108\trrh1813\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 2\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program.\par
+\b  \b0\i0\f2\fs22\cell\row\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\f1  \par
+\pard\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810 import re\par
+for test_string in ['555-1212', 'ILL-EGAL']:\par
+    if re.match(r'^\\d\{3\}-\\d\{4\}$', test_string):\par
+        print test_string, 'is a valid US local phone number'\par
+    else:\par
+        print test_string, 'rejected'\par
+\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810  \par
+\pard\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810 prices = \{'apple': 0.40, 'banana': 0.50\}\par
+my_purchase = \{\par
+    'apple': 1,\par
+    'banana': 6\}\par
+grocery_bill = sum(prices[fruit] * my_purchase[fruit]\par
+                   for fruit in my_purchase)\par
+print 'I owe the grocer $%.2f' % grocery_bill\par
+\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\par
+\trowd\trgaph108\trrh1840\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 3\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program.\par
+\i0\f2\fs22\cell\row\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\f1  .\par
+\pard\keep\keepn\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810 # This program adds up integers in the command line\par
+import sys\par
+try:\par
+    total = sum(int(arg) for arg in sys.argv[1:])\par
+    prinyt 'sum =', total\par
+except ValueError:\par
+    print 'Please supply integer arguments' \par
+\par
+\trowd\trgaph108\trrh2092\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\keep\keepn\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 4\cf0\b0\f2\cell\pard\intbl\keep\keepn\ri612\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program\i0\f2\fs22\cell\row\pard\keep\keepn\fi-270\li270\sb240\sa160\sl260\slmult0\b\f4\fs24\par
+\b0\f1\fs22\page\pard\li360\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\fs24\par
+\pard\keep\keepn\fi-270\li270\sb240\sa160\sl260\slmult0\b\f4 n\f0\tab PART 1.2: Classes, Unit testing, Itertools, Random Number Generator\par
+\pard\keep\keepn\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810\b0\f1\fs22\par
+from time import localtime\par
+activities = \{8: 'Sleeping',\par
+              9: 'Commuting',\par
+              17: 'Working',\par
+              18: 'Commuting',\par
+              20: 'Eating',\par
+              22: 'Resting' \}\par
+time_now = localtime()\par
+hour = time_now.tm_hour\par
+for activity_time in sorted(activities.keys()):\par
+    if hour < activity_time:\par
+        print activities[activity_time]\par
+\pard\keep\keepn\fi-450\li810\ri630\sl260\slmult0\qj\tx360\tx8640\tx810         break\par
+elsse:\par
+    print 'Unknown, AFK or sleeping!'\par
+\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810  \par
+\trowd\trgaph108\trrh1705\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 5\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program\i0\f2\fs22\cell\row\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\f1\par
+\pard\fi-450\li810\ri630\sl260\slmult0\qj\tx360\tx8640\tx810  classs BankAccount(object):\par
+    def __init__(self, initial_balance=0):\par
+        self.balance = initial_balance\par
+    def deposit(self, amount):\par
+        self.balance += amount\par
+    def withdraw(self, amount):\par
+        self.balance -= amount\par
+    def overdrawn(self):\par
+        return self.balance < 0\par
+my_account = BankAccount(15)\par
+my_account.withdraw(5)\par
+print my_account.balance\par
+\par
+\trowd\trgaph108\trrh1381\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 6\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program\i0\f2\fs22\cell\row\pard\keep\keepn\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810\f1 import itertools\par
+def iter_primes()::\par
+     # an iterator of all numbers between 2 and +infinity\par
+     numbers = itertools.count(2)\par
+     # generate primes forever\par
+     while True:\par
+         # get the first number from the iterator (always a prime)\par
+         prime = numbers.next()\par
+         yield prime\par
+         # this code iteratively builds up a chain of\par
+         # filters...slightly tricky, but ponder it a bit\par
+         numbers = itertools.ifilter(prime.__rmod__, numbers)\par
+for p in iter_primes():\par
+\pard\fi-450\li810\ri630\sl260\slmult0\qj\tx360\tx8640\tx810     if p > 1000:\par
+        break\par
+    print p\par
+\par
+\trowd\trgaph108\trrh1885\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0\par
+Question 7\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program\i0\f2\fs22\cell\row\pard\fi-450\li810\ri630\sl260\slmult0\qj\tx360\tx8640\tx810\f1\page\pard\sa200\sl276\slmult1\par
+\pard\keep\keepn\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810 import random\par
+guesses_made = 0\par
+name = raw_input('Hello! What is your name?\\n')\par
+number = random.randint(1, 20)\par
+print 'Well, \{0\}, I am thinking of a number between 1 and 20.'.format(name)\par
+while guesses_made < 6:\par
+    guess = int(raw_input('Take a guess: '))\par
+    guesses_made += 1\par
+    if guess < number:\par
+        print 'Your guess is too low.'\par
+    if guess > number:\par
+        print 'Your guess is too high.'\par
+    if guess == number:\par
+\pard\fi-450\li810\ri630\sl260\slmult0\qj\tx360\tx8640\tx810         break\par
+if guess == number:\par
+    print 'Good job, \{0\}! You guessed my number in \{1\} guesses!'.format(name, guesses_made)\par
+else:\par
+    print 'Nope. The number I was thinking of was \{0\}'.format(number)\par
+\par
+\trowd\trgaph108\trrh2758\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 8\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program\i0\f2\fs22\cell\row\pard\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\f1\par
+\pard\fi-270\li270\sb240\sa160\sl260\slmult0\b\f4\fs24\par
+\b0\fs22\page\pard\sa200\sl276\slmult1\b\fs24\par
+\pard\fi-270\li270\sb240\sa160\sl260\slmult0 n\f0\tab PART 1.3: Opening files, \par
+\pard\fi-446\li806\ri634\sl260\slmult0\qj\tx360\tx8640\tx810\b0\f1\fs22 # indent your Python code to put into an email\par
+import glob\par
+# glob supports Unix style pathname extensions\par
+python_files = glob.glob('*.py')\par
+for file_name in sorted(python_files):\par
+    print '    ------' + file_name\par
+    with open(file_name) as f:\par
+        for line in f:\par
+            print '    ' + line.rstrip()\par
+    print\par
+\par
+\trowd\trgaph108\trrh2659\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat5\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx1647\clcfpat4\clcbpat3\clbrdrl\brdrw8\brdrs\brdrcf4\clbrdrt\brdrw8\brdrs\brdrcf4\clbrdrr\brdrw8\brdrs\brdrcf4\clbrdrb\brdrw8\brdrs\brdrcf4 \cellx8856\pard\intbl\li113\ri113\sa240\sl260\slmult0\qc\tx360\tx8640\cf3\b\f0 Question 9\cf0\b0\f2\cell\pard\intbl\ri612\sa240\sl260\slmult0\tx360\tx8640\i\f0\fs20 Describe the output from the program\i0\f2\fs22\cell\row\pard\fi-450\li810\ri630\sa240\sl260\slmult0\qj\tx360\tx8640\tx810\f1\par
+}
+ 
